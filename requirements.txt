@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+pydantic
+groq
+python-dotenv
+sqlalchemy
+mysql-connector-python
+alembic

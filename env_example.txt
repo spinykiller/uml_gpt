@@ -1,0 +1,18 @@
+# Groq Configuration (optional - will use stub diagrams if not provided)
+GROQ_API_KEY=your_groq_api_key_here
+GROQ_MODEL=llama-3.3-70b-versatile
+
+# Database Configuration (optional - will work without database)
+# Comment out or remove these lines to run without database
+DB_USER=root
+DB_PASSWORD=your_password_here
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_NAME=diagram_chat
+
+# Server Configuration
+SERVER_HOST=127.0.0.1
+SERVER_PORT=8080
+
+# To disable database completely, you can set:
+# DATABASE_URL=
